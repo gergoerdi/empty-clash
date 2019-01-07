@@ -1,0 +1,17 @@
+name: empty-clash
+version: 0.1.0
+category: acme
+
+dependencies:
+  - base
+  - clash-prelude
+  - clash-lib
+  - clash-ghc
+
+source-dirs:
+  - src
+  
+executables:
+  empty:
+    main: Main.hs
+    
